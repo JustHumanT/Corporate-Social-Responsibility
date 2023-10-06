@@ -1,6 +1,6 @@
 <?= $this->extend('templates/templateadmin') ?>
 
-<?= $this->section('navadmin') ?>
+<?= $this->section('navadmin'); ?>
 
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="hero d-flex align-items-center">

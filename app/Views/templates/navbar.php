@@ -13,7 +13,7 @@
                 <li><a class="nav-link scrollto" href="#tujuan">Tujuan</a></li>
                 <li><a class="nav-link scrollto" href="#dasar-hukum">Dasar Hukum</a></li>
                 <li><a class="nav-link scrollto" href="/proyek">Proyek</a></li>
-                <li><a class="nav-link scrollto" href="#portfolio">Publikasi</a></li>
+                <li><a class="nav-link scrollto" href="/publikasi">Publikasi</a></li>
                 <li><a class="getstarted scrollto" href="/daftar">Daftar / Login</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>

@@ -30,7 +30,10 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'User');
 $routes->get('/admin', 'Admin');
-$routes->get('admin/verify', 'Admin::verify');
+$routes->get('/admin/verify', 'Admin::verify');
+$routes->get('/pengajuan', 'Pengajuan::index');
+$routes->get('/pengajuanadmin', 'PengajuanAdmin');
+$routes->get('/pengajuan/save', 'Pengajuan::save');
 
 /*
  * --------------------------------------------------------------------

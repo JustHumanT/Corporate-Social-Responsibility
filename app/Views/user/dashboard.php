@@ -1,7 +1,8 @@
 <?= $this->extend('templates/templateuser') ?>
 
-<?= $this->section('navuser') ?>
+<?= $this->section('navuser'); ?>
 <?= $this->include('templates/navbar'); ?>
+
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="hero d-flex align-items-center">
 
@@ -252,4 +253,4 @@
 
 </main><!-- End #main -->
 
-<?= $this->endSection() ?>
+<?= $this->endSection(); ?>

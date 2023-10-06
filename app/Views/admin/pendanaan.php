@@ -43,7 +43,7 @@
                         <td>
                             <a class="btn btn-success btn-sm"><i class="bi bi-check-circle"></i></a>
                             <a class="btn btn-danger btn-sm"><i class="bi bi-x-circle"></i></a>
-                            <a class="btn btn-primary btn-sm"><i class="bi bi-file-earmark-arrow-down"></i></a>
+                            <a class="btn btn-primary btn-sm" href="<?= base_url(); ?>/Pengajuan/download/<?= $pp['id'] ?>"><i class="bi bi-file-earmark-arrow-down"></i></a>
                         </td>
                     </tr>
                 <?php endforeach; ?>
